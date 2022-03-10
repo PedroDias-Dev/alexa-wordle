@@ -1,0 +1,4858 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "teste minha aplicação",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "olá",
+            "como vai você",
+            "diga oi mundo",
+            "diga oi",
+            "oi",
+            "diga olá mundo",
+            "diga olá"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PositiveIntent",
+          "slots": [],
+          "samples": [
+            "positivo",
+            "vamos",
+            "claro",
+            "sim"
+          ]
+        },
+        {
+          "name": "GameLoopIntent",
+          "slots": [
+            {
+              "name": "guess",
+              "type": "guess"
+            }
+          ],
+          "samples": [
+            "a palavra é {guess}",
+            "{guess}",
+            "meu palpite é {guess}"
+          ]
+        },
+        {
+          "name": "NegativeIntent",
+          "slots": [],
+          "samples": [
+            "negativo",
+            "não"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sagaz"
+              }
+            },
+            {
+              "name": {
+                "value": "negro"
+              }
+            },
+            {
+              "name": {
+                "value": "âmago"
+              }
+            },
+            {
+              "name": {
+                "value": "êxito"
+              }
+            },
+            {
+              "name": {
+                "value": "mexer"
+              }
+            },
+            {
+              "name": {
+                "value": "termo"
+              }
+            },
+            {
+              "name": {
+                "value": "senso"
+              }
+            },
+            {
+              "name": {
+                "value": "nobre"
+              }
+            },
+            {
+              "name": {
+                "value": "algoz"
+              }
+            },
+            {
+              "name": {
+                "value": "afeto"
+              }
+            },
+            {
+              "name": {
+                "value": "plena"
+              }
+            },
+            {
+              "name": {
+                "value": "ética"
+              }
+            },
+            {
+              "name": {
+                "value": "mútua"
+              }
+            },
+            {
+              "name": {
+                "value": "sutil"
+              }
+            },
+            {
+              "name": {
+                "value": "tênue"
+              }
+            },
+            {
+              "name": {
+                "value": "vigor"
+              }
+            },
+            {
+              "name": {
+                "value": "aquém"
+              }
+            },
+            {
+              "name": {
+                "value": "audaz"
+              }
+            },
+            {
+              "name": {
+                "value": "porém"
+              }
+            },
+            {
+              "name": {
+                "value": "fazer"
+              }
+            },
+            {
+              "name": {
+                "value": "sanar"
+              }
+            },
+            {
+              "name": {
+                "value": "seção"
+              }
+            },
+            {
+              "name": {
+                "value": "inato"
+              }
+            },
+            {
+              "name": {
+                "value": "assim"
+              }
+            },
+            {
+              "name": {
+                "value": "cerne"
+              }
+            },
+            {
+              "name": {
+                "value": "ideia"
+              }
+            },
+            {
+              "name": {
+                "value": "desde"
+              }
+            },
+            {
+              "name": {
+                "value": "fosse"
+              }
+            },
+            {
+              "name": {
+                "value": "poder"
+              }
+            },
+            {
+              "name": {
+                "value": "moral"
+              }
+            },
+            {
+              "name": {
+                "value": "torpe"
+              }
+            },
+            {
+              "name": {
+                "value": "honra"
+              }
+            },
+            {
+              "name": {
+                "value": "muito"
+              }
+            },
+            {
+              "name": {
+                "value": "justo"
+              }
+            },
+            {
+              "name": {
+                "value": "anexo"
+              }
+            },
+            {
+              "name": {
+                "value": "fútil"
+              }
+            },
+            {
+              "name": {
+                "value": "razão"
+              }
+            },
+            {
+              "name": {
+                "value": "quiçá"
+              }
+            },
+            {
+              "name": {
+                "value": "etnia"
+              }
+            },
+            {
+              "name": {
+                "value": "ícone"
+              }
+            },
+            {
+              "name": {
+                "value": "sobre"
+              }
+            },
+            {
+              "name": {
+                "value": "tange"
+              }
+            },
+            {
+              "name": {
+                "value": "égide"
+              }
+            },
+            {
+              "name": {
+                "value": "lapso"
+              }
+            },
+            {
+              "name": {
+                "value": "mútuo"
+              }
+            },
+            {
+              "name": {
+                "value": "sonho"
+              }
+            },
+            {
+              "name": {
+                "value": "expor"
+              }
+            },
+            {
+              "name": {
+                "value": "haver"
+              }
+            },
+            {
+              "name": {
+                "value": "hábil"
+              }
+            },
+            {
+              "name": {
+                "value": "amigo"
+              }
+            },
+            {
+              "name": {
+                "value": "tempo"
+              }
+            },
+            {
+              "name": {
+                "value": "pesar"
+              }
+            },
+            {
+              "name": {
+                "value": "posse"
+              }
+            },
+            {
+              "name": {
+                "value": "ávido"
+              }
+            },
+            {
+              "name": {
+                "value": "então"
+              }
+            },
+            {
+              "name": {
+                "value": "boçal"
+              }
+            },
+            {
+              "name": {
+                "value": "ardil"
+              }
+            },
+            {
+              "name": {
+                "value": "coser"
+              }
+            },
+            {
+              "name": {
+                "value": "genro"
+              }
+            },
+            {
+              "name": {
+                "value": "corja"
+              }
+            },
+            {
+              "name": {
+                "value": "seara"
+              }
+            },
+            {
+              "name": {
+                "value": "dengo"
+              }
+            },
+            {
+              "name": {
+                "value": "prole"
+              }
+            },
+            {
+              "name": {
+                "value": "detém"
+              }
+            },
+            {
+              "name": {
+                "value": "causa"
+              }
+            },
+            {
+              "name": {
+                "value": "dizer"
+              }
+            },
+            {
+              "name": {
+                "value": "tenaz"
+              }
+            },
+            {
+              "name": {
+                "value": "digno"
+              }
+            },
+            {
+              "name": {
+                "value": "dever"
+              }
+            },
+            {
+              "name": {
+                "value": "crivo"
+              }
+            },
+            {
+              "name": {
+                "value": "saber"
+              }
+            },
+            {
+              "name": {
+                "value": "óbice"
+              }
+            },
+            {
+              "name": {
+                "value": "ápice"
+              }
+            },
+            {
+              "name": {
+                "value": "ânsia"
+              }
+            },
+            {
+              "name": {
+                "value": "brado"
+              }
+            },
+            {
+              "name": {
+                "value": "ceder"
+              }
+            },
+            {
+              "name": {
+                "value": "ânimo"
+              }
+            },
+            {
+              "name": {
+                "value": "gleba"
+              }
+            },
+            {
+              "name": {
+                "value": "pária"
+              }
+            },
+            {
+              "name": {
+                "value": "graça"
+              }
+            },
+            {
+              "name": {
+                "value": "assaz"
+              }
+            },
+            {
+              "name": {
+                "value": "comum"
+              }
+            },
+            {
+              "name": {
+                "value": "atroz"
+              }
+            },
+            {
+              "name": {
+                "value": "culto"
+              }
+            },
+            {
+              "name": {
+                "value": "temor"
+              }
+            },
+            {
+              "name": {
+                "value": "sendo"
+              }
+            },
+            {
+              "name": {
+                "value": "mundo"
+              }
+            },
+            {
+              "name": {
+                "value": "censo"
+              }
+            },
+            {
+              "name": {
+                "value": "pauta"
+              }
+            },
+            {
+              "name": {
+                "value": "fugaz"
+              }
+            },
+            {
+              "name": {
+                "value": "denso"
+              }
+            },
+            {
+              "name": {
+                "value": "cozer"
+              }
+            },
+            {
+              "name": {
+                "value": "valha"
+              }
+            },
+            {
+              "name": {
+                "value": "neném"
+              }
+            },
+            {
+              "name": {
+                "value": "ainda"
+              }
+            },
+            {
+              "name": {
+                "value": "vício"
+              }
+            },
+            {
+              "name": {
+                "value": "forte"
+              }
+            },
+            {
+              "name": {
+                "value": "revés"
+              }
+            },
+            {
+              "name": {
+                "value": "vulgo"
+              }
+            },
+            {
+              "name": {
+                "value": "estar"
+              }
+            },
+            {
+              "name": {
+                "value": "pudor"
+              }
+            },
+            {
+              "name": {
+                "value": "regra"
+              }
+            },
+            {
+              "name": {
+                "value": "dogma"
+              }
+            },
+            {
+              "name": {
+                "value": "louco"
+              }
+            },
+            {
+              "name": {
+                "value": "banal"
+              }
+            },
+            {
+              "name": {
+                "value": "criar"
+              }
+            },
+            {
+              "name": {
+                "value": "pífio"
+              }
+            },
+            {
+              "name": {
+                "value": "impor"
+              }
+            },
+            {
+              "name": {
+                "value": "tenro"
+              }
+            },
+            {
+              "name": {
+                "value": "desse"
+              }
+            },
+            {
+              "name": {
+                "value": "apraz"
+              }
+            },
+            {
+              "name": {
+                "value": "jeito"
+              }
+            },
+            {
+              "name": {
+                "value": "reaça"
+              }
+            },
+            {
+              "name": {
+                "value": "ordem"
+              }
+            },
+            {
+              "name": {
+                "value": "round"
+              }
+            },
+            {
+              "name": {
+                "value": "atrás"
+              }
+            },
+            {
+              "name": {
+                "value": "pedir"
+              }
+            },
+            {
+              "name": {
+                "value": "saúde"
+              }
+            },
+            {
+              "name": {
+                "value": "clava"
+              }
+            },
+            {
+              "name": {
+                "value": "viril"
+              }
+            },
+            {
+              "name": {
+                "value": "mercê"
+              }
+            },
+            {
+              "name": {
+                "value": "usura"
+              }
+            },
+            {
+              "name": {
+                "value": "manso"
+              }
+            },
+            {
+              "name": {
+                "value": "juízo"
+              }
+            },
+            {
+              "name": {
+                "value": "sábio"
+              }
+            },
+            {
+              "name": {
+                "value": "ontem"
+              }
+            },
+            {
+              "name": {
+                "value": "servo"
+              }
+            },
+            {
+              "name": {
+                "value": "prosa"
+              }
+            },
+            {
+              "name": {
+                "value": "feliz"
+              }
+            },
+            {
+              "name": {
+                "value": "presa"
+              }
+            },
+            {
+              "name": {
+                "value": "coisa"
+              }
+            },
+            {
+              "name": {
+                "value": "afago"
+              }
+            },
+            {
+              "name": {
+                "value": "fluir"
+              }
+            },
+            {
+              "name": {
+                "value": "falar"
+              }
+            },
+            {
+              "name": {
+                "value": "ébrio"
+              }
+            },
+            {
+              "name": {
+                "value": "cunho"
+              }
+            },
+            {
+              "name": {
+                "value": "forma"
+              }
+            },
+            {
+              "name": {
+                "value": "devir"
+              }
+            },
+            {
+              "name": {
+                "value": "meiga"
+              }
+            },
+            {
+              "name": {
+                "value": "vendo"
+              }
+            },
+            {
+              "name": {
+                "value": "sério"
+              }
+            },
+            {
+              "name": {
+                "value": "platô"
+              }
+            },
+            {
+              "name": {
+                "value": "guisa"
+              }
+            },
+            {
+              "name": {
+                "value": "pleno"
+              }
+            },
+            {
+              "name": {
+                "value": "visar"
+              }
+            },
+            {
+              "name": {
+                "value": "temer"
+              }
+            },
+            {
+              "name": {
+                "value": "mesmo"
+              }
+            },
+            {
+              "name": {
+                "value": "cisma"
+              }
+            },
+            {
+              "name": {
+                "value": "limbo"
+              }
+            },
+            {
+              "name": {
+                "value": "bruma"
+              }
+            },
+            {
+              "name": {
+                "value": "mágoa"
+              }
+            },
+            {
+              "name": {
+                "value": "acaso"
+              }
+            },
+            {
+              "name": {
+                "value": "puder"
+              }
+            },
+            {
+              "name": {
+                "value": "herói"
+              }
+            },
+            {
+              "name": {
+                "value": "êxodo"
+              }
+            },
+            {
+              "name": {
+                "value": "gerar"
+              }
+            },
+            {
+              "name": {
+                "value": "óbvio"
+              }
+            },
+            {
+              "name": {
+                "value": "afins"
+              }
+            },
+            {
+              "name": {
+                "value": "obter"
+              }
+            },
+            {
+              "name": {
+                "value": "valor"
+              }
+            },
+            {
+              "name": {
+                "value": "lugar"
+              }
+            },
+            {
+              "name": {
+                "value": "ímpio"
+              }
+            },
+            {
+              "name": {
+                "value": "matiz"
+              }
+            },
+            {
+              "name": {
+                "value": "praxe"
+              }
+            },
+            {
+              "name": {
+                "value": "crise"
+              }
+            },
+            {
+              "name": {
+                "value": "senil"
+              }
+            },
+            {
+              "name": {
+                "value": "havia"
+              }
+            },
+            {
+              "name": {
+                "value": "vênia"
+              }
+            },
+            {
+              "name": {
+                "value": "certo"
+              }
+            },
+            {
+              "name": {
+                "value": "fluxo"
+              }
+            },
+            {
+              "name": {
+                "value": "enfim"
+              }
+            },
+            {
+              "name": {
+                "value": "álibi"
+              }
+            },
+            {
+              "name": {
+                "value": "tédio"
+              }
+            },
+            {
+              "name": {
+                "value": "ritmo"
+              }
+            },
+            {
+              "name": {
+                "value": "posso"
+              }
+            },
+            {
+              "name": {
+                "value": "garbo"
+              }
+            },
+            {
+              "name": {
+                "value": "tomar"
+              }
+            },
+            {
+              "name": {
+                "value": "reter"
+              }
+            },
+            {
+              "name": {
+                "value": "pulha"
+              }
+            },
+            {
+              "name": {
+                "value": "parvo"
+              }
+            },
+            {
+              "name": {
+                "value": "união"
+              }
+            },
+            {
+              "name": {
+                "value": "valia"
+              }
+            },
+            {
+              "name": {
+                "value": "grato"
+              }
+            },
+            {
+              "name": {
+                "value": "todos"
+              }
+            },
+            {
+              "name": {
+                "value": "vital"
+              }
+            },
+            {
+              "name": {
+                "value": "visão"
+              }
+            },
+            {
+              "name": {
+                "value": "favor"
+              }
+            },
+            {
+              "name": {
+                "value": "abrir"
+              }
+            },
+            {
+              "name": {
+                "value": "vivaz"
+              }
+            },
+            {
+              "name": {
+                "value": "laico"
+              }
+            },
+            {
+              "name": {
+                "value": "bravo"
+              }
+            },
+            {
+              "name": {
+                "value": "parco"
+              }
+            },
+            {
+              "name": {
+                "value": "prumo"
+              }
+            },
+            {
+              "name": {
+                "value": "fácil"
+              }
+            },
+            {
+              "name": {
+                "value": "ameno"
+              }
+            },
+            {
+              "name": {
+                "value": "gênio"
+              }
+            },
+            {
+              "name": {
+                "value": "reles"
+              }
+            },
+            {
+              "name": {
+                "value": "óbito"
+              }
+            },
+            {
+              "name": {
+                "value": "falso"
+              }
+            },
+            {
+              "name": {
+                "value": "possa"
+              }
+            },
+            {
+              "name": {
+                "value": "olhar"
+              }
+            },
+            {
+              "name": {
+                "value": "prime"
+              }
+            },
+            {
+              "name": {
+                "value": "levar"
+              }
+            },
+            {
+              "name": {
+                "value": "tecer"
+              }
+            },
+            {
+              "name": {
+                "value": "burro"
+              }
+            },
+            {
+              "name": {
+                "value": "selar"
+              }
+            },
+            {
+              "name": {
+                "value": "anelo"
+              }
+            },
+            {
+              "name": {
+                "value": "casta"
+              }
+            },
+            {
+              "name": {
+                "value": "fator"
+              }
+            },
+            {
+              "name": {
+                "value": "citar"
+              }
+            },
+            {
+              "name": {
+                "value": "rogar"
+              }
+            },
+            {
+              "name": {
+                "value": "adiar"
+              }
+            },
+            {
+              "name": {
+                "value": "farsa"
+              }
+            },
+            {
+              "name": {
+                "value": "façam"
+              }
+            },
+            {
+              "name": {
+                "value": "ranço"
+              }
+            },
+            {
+              "name": {
+                "value": "achar"
+              }
+            },
+            {
+              "name": {
+                "value": "coeso"
+              }
+            },
+            {
+              "name": {
+                "value": "noção"
+              }
+            },
+            {
+              "name": {
+                "value": "cisão"
+              }
+            },
+            {
+              "name": {
+                "value": "épico"
+              }
+            },
+            {
+              "name": {
+                "value": "legal"
+              }
+            },
+            {
+              "name": {
+                "value": "cabal"
+              }
+            },
+            {
+              "name": {
+                "value": "morte"
+              }
+            },
+            {
+              "name": {
+                "value": "imune"
+              }
+            },
+            {
+              "name": {
+                "value": "sábia"
+              }
+            },
+            {
+              "name": {
+                "value": "sinto"
+              }
+            },
+            {
+              "name": {
+                "value": "nicho"
+              }
+            },
+            {
+              "name": {
+                "value": "fardo"
+              }
+            },
+            {
+              "name": {
+                "value": "falta"
+              }
+            },
+            {
+              "name": {
+                "value": "exato"
+              }
+            },
+            {
+              "name": {
+                "value": "ativo"
+              }
+            },
+            {
+              "name": {
+                "value": "gente"
+              }
+            },
+            {
+              "name": {
+                "value": "lavra"
+              }
+            },
+            {
+              "name": {
+                "value": "amplo"
+              }
+            },
+            {
+              "name": {
+                "value": "força"
+              }
+            },
+            {
+              "name": {
+                "value": "ouvir"
+              }
+            },
+            {
+              "name": {
+                "value": "viver"
+              }
+            },
+            {
+              "name": {
+                "value": "brega"
+              }
+            },
+            {
+              "name": {
+                "value": "gesto"
+              }
+            },
+            {
+              "name": {
+                "value": "labor"
+              }
+            },
+            {
+              "name": {
+                "value": "dúbio"
+              }
+            },
+            {
+              "name": {
+                "value": "revel"
+              }
+            },
+            {
+              "name": {
+                "value": "cesta"
+              }
+            },
+            {
+              "name": {
+                "value": "sonso"
+              }
+            },
+            {
+              "name": {
+                "value": "sesta"
+              }
+            },
+            {
+              "name": {
+                "value": "sulco"
+              }
+            },
+            {
+              "name": {
+                "value": "deter"
+              }
+            },
+            {
+              "name": {
+                "value": "passo"
+              }
+            },
+            {
+              "name": {
+                "value": "leigo"
+              }
+            },
+            {
+              "name": {
+                "value": "tendo"
+              }
+            },
+            {
+              "name": {
+                "value": "único"
+              }
+            },
+            {
+              "name": {
+                "value": "árduo"
+              }
+            },
+            {
+              "name": {
+                "value": "vemos"
+              }
+            },
+            {
+              "name": {
+                "value": "atuar"
+              }
+            },
+            {
+              "name": {
+                "value": "feixe"
+              }
+            },
+            {
+              "name": {
+                "value": "ótica"
+              }
+            },
+            {
+              "name": {
+                "value": "rever"
+              }
+            },
+            {
+              "name": {
+                "value": "calma"
+              }
+            },
+            {
+              "name": {
+                "value": "ciúme"
+              }
+            },
+            {
+              "name": {
+                "value": "igual"
+              }
+            },
+            {
+              "name": {
+                "value": "toada"
+              }
+            },
+            {
+              "name": {
+                "value": "humor"
+              }
+            },
+            {
+              "name": {
+                "value": "débil"
+              }
+            },
+            {
+              "name": {
+                "value": "tende"
+              }
+            },
+            {
+              "name": {
+                "value": "sonsa"
+              }
+            },
+            {
+              "name": {
+                "value": "ideal"
+              }
+            },
+            {
+              "name": {
+                "value": "hiato"
+              }
+            },
+            {
+              "name": {
+                "value": "vácuo"
+              }
+            },
+            {
+              "name": {
+                "value": "pobre"
+              }
+            },
+            {
+              "name": {
+                "value": "ponto"
+              }
+            },
+            {
+              "name": {
+                "value": "ambos"
+              }
+            },
+            {
+              "name": {
+                "value": "claro"
+              }
+            },
+            {
+              "name": {
+                "value": "terno"
+              }
+            },
+            {
+              "name": {
+                "value": "velho"
+              }
+            },
+            {
+              "name": {
+                "value": "remir"
+              }
+            },
+            {
+              "name": {
+                "value": "fusão"
+              }
+            },
+            {
+              "name": {
+                "value": "probo"
+              }
+            },
+            {
+              "name": {
+                "value": "outro"
+              }
+            },
+            {
+              "name": {
+                "value": "leito"
+              }
+            },
+            {
+              "name": {
+                "value": "senão"
+              }
+            },
+            {
+              "name": {
+                "value": "advém"
+              }
+            },
+            {
+              "name": {
+                "value": "doido"
+              }
+            },
+            {
+              "name": {
+                "value": "horda"
+              }
+            },
+            {
+              "name": {
+                "value": "carma"
+              }
+            },
+            {
+              "name": {
+                "value": "linda"
+              }
+            },
+            {
+              "name": {
+                "value": "marco"
+              }
+            },
+            {
+              "name": {
+                "value": "jovem"
+              }
+            },
+            {
+              "name": {
+                "value": "inata"
+              }
+            },
+            {
+              "name": {
+                "value": "xeque"
+              }
+            },
+            {
+              "name": {
+                "value": "capaz"
+              }
+            },
+            {
+              "name": {
+                "value": "fonte"
+              }
+            },
+            {
+              "name": {
+                "value": "relva"
+              }
+            },
+            {
+              "name": {
+                "value": "ajuda"
+              }
+            },
+            {
+              "name": {
+                "value": "tenra"
+              }
+            },
+            {
+              "name": {
+                "value": "algum"
+              }
+            },
+            {
+              "name": {
+                "value": "caçar"
+              }
+            },
+            {
+              "name": {
+                "value": "velar"
+              }
+            },
+            {
+              "name": {
+                "value": "anuir"
+              }
+            },
+            {
+              "name": {
+                "value": "ficar"
+              }
+            },
+            {
+              "name": {
+                "value": "noite"
+              }
+            },
+            {
+              "name": {
+                "value": "apoio"
+              }
+            },
+            {
+              "name": {
+                "value": "dorso"
+              }
+            },
+            {
+              "name": {
+                "value": "vimos"
+              }
+            },
+            {
+              "name": {
+                "value": "rigor"
+              }
+            },
+            {
+              "name": {
+                "value": "farão"
+              }
+            },
+            {
+              "name": {
+                "value": "série"
+              }
+            },
+            {
+              "name": {
+                "value": "verso"
+              }
+            },
+            {
+              "name": {
+                "value": "botar"
+              }
+            },
+            {
+              "name": {
+                "value": "vazio"
+              }
+            },
+            {
+              "name": {
+                "value": "tanto"
+              }
+            },
+            {
+              "name": {
+                "value": "líder"
+              }
+            },
+            {
+              "name": {
+                "value": "prece"
+              }
+            },
+            {
+              "name": {
+                "value": "cruel"
+              }
+            },
+            {
+              "name": {
+                "value": "terra"
+              }
+            },
+            {
+              "name": {
+                "value": "morar"
+              }
+            },
+            {
+              "name": {
+                "value": "ambas"
+              }
+            },
+            {
+              "name": {
+                "value": "moção"
+              }
+            },
+            {
+              "name": {
+                "value": "frase"
+              }
+            },
+            {
+              "name": {
+                "value": "vírus"
+              }
+            },
+            {
+              "name": {
+                "value": "peste"
+              }
+            },
+            {
+              "name": {
+                "value": "massa"
+              }
+            },
+            {
+              "name": {
+                "value": "entre"
+              }
+            },
+            {
+              "name": {
+                "value": "casto"
+              }
+            },
+            {
+              "name": {
+                "value": "coçar"
+              }
+            },
+            {
+              "name": {
+                "value": "pouco"
+              }
+            },
+            {
+              "name": {
+                "value": "covil"
+              }
+            },
+            {
+              "name": {
+                "value": "coesa"
+              }
+            },
+            {
+              "name": {
+                "value": "fauna"
+              }
+            },
+            {
+              "name": {
+                "value": "faina"
+              }
+            },
+            {
+              "name": {
+                "value": "signo"
+              }
+            },
+            {
+              "name": {
+                "value": "sente"
+              }
+            },
+            {
+              "name": {
+                "value": "preso"
+              }
+            },
+            {
+              "name": {
+                "value": "furor"
+              }
+            },
+            {
+              "name": {
+                "value": "credo"
+              }
+            },
+            {
+              "name": {
+                "value": "dócil"
+              }
+            },
+            {
+              "name": {
+                "value": "feito"
+              }
+            },
+            {
+              "name": {
+                "value": "lazer"
+              }
+            },
+            {
+              "name": {
+                "value": "minha"
+              }
+            },
+            {
+              "name": {
+                "value": "vetor"
+              }
+            },
+            {
+              "name": {
+                "value": "árido"
+              }
+            },
+            {
+              "name": {
+                "value": "flora"
+              }
+            },
+            {
+              "name": {
+                "value": "raiva"
+              }
+            },
+            {
+              "name": {
+                "value": "aceso"
+              }
+            },
+            {
+              "name": {
+                "value": "ciclo"
+              }
+            },
+            {
+              "name": {
+                "value": "ímpar"
+              }
+            },
+            {
+              "name": {
+                "value": "maior"
+              }
+            },
+            {
+              "name": {
+                "value": "chata"
+              }
+            },
+            {
+              "name": {
+                "value": "torço"
+              }
+            },
+            {
+              "name": {
+                "value": "beata"
+              }
+            },
+            {
+              "name": {
+                "value": "vulto"
+              }
+            },
+            {
+              "name": {
+                "value": "brisa"
+              }
+            },
+            {
+              "name": {
+                "value": "houve"
+              }
+            },
+            {
+              "name": {
+                "value": "trama"
+              }
+            },
+            {
+              "name": {
+                "value": "breve"
+              }
+            },
+            {
+              "name": {
+                "value": "papel"
+              }
+            },
+            {
+              "name": {
+                "value": "vasto"
+              }
+            },
+            {
+              "name": {
+                "value": "liame"
+              }
+            },
+            {
+              "name": {
+                "value": "setor"
+              }
+            },
+            {
+              "name": {
+                "value": "adeus"
+              }
+            },
+            {
+              "name": {
+                "value": "pegar"
+              }
+            },
+            {
+              "name": {
+                "value": "manha"
+              }
+            },
+            {
+              "name": {
+                "value": "salvo"
+              }
+            },
+            {
+              "name": {
+                "value": "senda"
+              }
+            },
+            {
+              "name": {
+                "value": "ardor"
+              }
+            },
+            {
+              "name": {
+                "value": "seita"
+              }
+            },
+            {
+              "name": {
+                "value": "banzo"
+              }
+            },
+            {
+              "name": {
+                "value": "morro"
+              }
+            },
+            {
+              "name": {
+                "value": "pecha"
+              }
+            },
+            {
+              "name": {
+                "value": "átomo"
+              }
+            },
+            {
+              "name": {
+                "value": "prado"
+              }
+            },
+            {
+              "name": {
+                "value": "visse"
+              }
+            },
+            {
+              "name": {
+                "value": "reger"
+              }
+            },
+            {
+              "name": {
+                "value": "antro"
+              }
+            },
+            {
+              "name": {
+                "value": "blasé"
+              }
+            },
+            {
+              "name": {
+                "value": "avaro"
+              }
+            },
+            {
+              "name": {
+                "value": "segue"
+              }
+            },
+            {
+              "name": {
+                "value": "livro"
+              }
+            },
+            {
+              "name": {
+                "value": "nossa"
+              }
+            },
+            {
+              "name": {
+                "value": "anciã"
+              }
+            },
+            {
+              "name": {
+                "value": "comer"
+              }
+            },
+            {
+              "name": {
+                "value": "ocaso"
+              }
+            },
+            {
+              "name": {
+                "value": "plano"
+              }
+            },
+            {
+              "name": {
+                "value": "peixe"
+              }
+            },
+            {
+              "name": {
+                "value": "rezar"
+              }
+            },
+            {
+              "name": {
+                "value": "áureo"
+              }
+            },
+            {
+              "name": {
+                "value": "saiba"
+              }
+            },
+            {
+              "name": {
+                "value": "ótimo"
+              }
+            },
+            {
+              "name": {
+                "value": "saída"
+              }
+            },
+            {
+              "name": {
+                "value": "aliás"
+              }
+            },
+            {
+              "name": {
+                "value": "meses"
+              }
+            },
+            {
+              "name": {
+                "value": "acima"
+              }
+            },
+            {
+              "name": {
+                "value": "sorte"
+              }
+            },
+            {
+              "name": {
+                "value": "chulo"
+              }
+            },
+            {
+              "name": {
+                "value": "junto"
+              }
+            },
+            {
+              "name": {
+                "value": "nunca"
+              }
+            },
+            {
+              "name": {
+                "value": "fitar"
+              }
+            },
+            {
+              "name": {
+                "value": "chuva"
+              }
+            },
+            {
+              "name": {
+                "value": "opção"
+              }
+            },
+            {
+              "name": {
+                "value": "jazia"
+              }
+            },
+            {
+              "name": {
+                "value": "serão"
+              }
+            },
+            {
+              "name": {
+                "value": "mudar"
+              }
+            },
+            {
+              "name": {
+                "value": "fruir"
+              }
+            },
+            {
+              "name": {
+                "value": "pajem"
+              }
+            },
+            {
+              "name": {
+                "value": "parar"
+              }
+            },
+            {
+              "name": {
+                "value": "bando"
+              }
+            },
+            {
+              "name": {
+                "value": "treta"
+              }
+            },
+            {
+              "name": {
+                "value": "fugir"
+              }
+            },
+            {
+              "name": {
+                "value": "motim"
+              }
+            },
+            {
+              "name": {
+                "value": "gerir"
+              }
+            },
+            {
+              "name": {
+                "value": "prazo"
+              }
+            },
+            {
+              "name": {
+                "value": "nação"
+              }
+            },
+            {
+              "name": {
+                "value": "séria"
+              }
+            },
+            {
+              "name": {
+                "value": "carro"
+              }
+            },
+            {
+              "name": {
+                "value": "alude"
+              }
+            },
+            {
+              "name": {
+                "value": "tosco"
+              }
+            },
+            {
+              "name": {
+                "value": "leite"
+              }
+            },
+            {
+              "name": {
+                "value": "sinhá"
+              }
+            },
+            {
+              "name": {
+                "value": "norma"
+              }
+            },
+            {
+              "name": {
+                "value": "andar"
+              }
+            },
+            {
+              "name": {
+                "value": "época"
+              }
+            },
+            {
+              "name": {
+                "value": "grupo"
+              }
+            },
+            {
+              "name": {
+                "value": "brava"
+              }
+            },
+            {
+              "name": {
+                "value": "tenso"
+              }
+            },
+            {
+              "name": {
+                "value": "exame"
+              }
+            },
+            {
+              "name": {
+                "value": "arcar"
+              }
+            },
+            {
+              "name": {
+                "value": "rapaz"
+              }
+            },
+            {
+              "name": {
+                "value": "avião"
+              }
+            },
+            {
+              "name": {
+                "value": "ídolo"
+              }
+            },
+            {
+              "name": {
+                "value": "lenda"
+              }
+            },
+            {
+              "name": {
+                "value": "venal"
+              }
+            },
+            {
+              "name": {
+                "value": "soldo"
+              }
+            },
+            {
+              "name": {
+                "value": "tirar"
+              }
+            },
+            {
+              "name": {
+                "value": "parte"
+              }
+            },
+            {
+              "name": {
+                "value": "virão"
+              }
+            },
+            {
+              "name": {
+                "value": "reino"
+              }
+            },
+            {
+              "name": {
+                "value": "campo"
+              }
+            },
+            {
+              "name": {
+                "value": "quota"
+              }
+            },
+            {
+              "name": {
+                "value": "praga"
+              }
+            },
+            {
+              "name": {
+                "value": "malta"
+              }
+            },
+            {
+              "name": {
+                "value": "exijo"
+              }
+            },
+            {
+              "name": {
+                "value": "sumir"
+              }
+            },
+            {
+              "name": {
+                "value": "pompa"
+              }
+            },
+            {
+              "name": {
+                "value": "aonde"
+              }
+            },
+            {
+              "name": {
+                "value": "logro"
+              }
+            },
+            {
+              "name": {
+                "value": "traga"
+              }
+            },
+            {
+              "name": {
+                "value": "vilão"
+              }
+            },
+            {
+              "name": {
+                "value": "fixar"
+              }
+            },
+            {
+              "name": {
+                "value": "preto"
+              }
+            },
+            {
+              "name": {
+                "value": "anais"
+              }
+            },
+            {
+              "name": {
+                "value": "voraz"
+              }
+            },
+            {
+              "name": {
+                "value": "corpo"
+              }
+            },
+            {
+              "name": {
+                "value": "antes"
+              }
+            },
+            {
+              "name": {
+                "value": "quase"
+              }
+            },
+            {
+              "name": {
+                "value": "solto"
+              }
+            },
+            {
+              "name": {
+                "value": "cheio"
+              }
+            },
+            {
+              "name": {
+                "value": "turva"
+              }
+            },
+            {
+              "name": {
+                "value": "nódoa"
+              }
+            },
+            {
+              "name": {
+                "value": "agora"
+              }
+            },
+            {
+              "name": {
+                "value": "certa"
+              }
+            },
+            {
+              "name": {
+                "value": "cópia"
+              }
+            },
+            {
+              "name": {
+                "value": "oásis"
+              }
+            },
+            {
+              "name": {
+                "value": "turba"
+              }
+            },
+            {
+              "name": {
+                "value": "alado"
+              }
+            },
+            {
+              "name": {
+                "value": "risco"
+              }
+            },
+            {
+              "name": {
+                "value": "apego"
+              }
+            },
+            {
+              "name": {
+                "value": "parva"
+              }
+            },
+            {
+              "name": {
+                "value": "filho"
+              }
+            },
+            {
+              "name": {
+                "value": "messe"
+              }
+            },
+            {
+              "name": {
+                "value": "índio"
+              }
+            },
+            {
+              "name": {
+                "value": "grave"
+              }
+            },
+            {
+              "name": {
+                "value": "doído"
+              }
+            },
+            {
+              "name": {
+                "value": "caixa"
+              }
+            },
+            {
+              "name": {
+                "value": "praia"
+              }
+            },
+            {
+              "name": {
+                "value": "estão"
+              }
+            },
+            {
+              "name": {
+                "value": "acesa"
+              }
+            },
+            {
+              "name": {
+                "value": "prova"
+              }
+            },
+            {
+              "name": {
+                "value": "verve"
+              }
+            },
+            {
+              "name": {
+                "value": "apelo"
+              }
+            },
+            {
+              "name": {
+                "value": "nível"
+              }
+            },
+            {
+              "name": {
+                "value": "pardo"
+              }
+            },
+            {
+              "name": {
+                "value": "psico"
+              }
+            },
+            {
+              "name": {
+                "value": "texto"
+              }
+            },
+            {
+              "name": {
+                "value": "fenda"
+              }
+            },
+            {
+              "name": {
+                "value": "ligar"
+              }
+            },
+            {
+              "name": {
+                "value": "trupe"
+              }
+            },
+            {
+              "name": {
+                "value": "retém"
+              }
+            },
+            {
+              "name": {
+                "value": "tocar"
+              }
+            },
+            {
+              "name": {
+                "value": "átrio"
+              }
+            },
+            {
+              "name": {
+                "value": "viria"
+              }
+            },
+            {
+              "name": {
+                "value": "lindo"
+              }
+            },
+            {
+              "name": {
+                "value": "dessa"
+              }
+            },
+            {
+              "name": {
+                "value": "sabia"
+              }
+            },
+            {
+              "name": {
+                "value": "alçar"
+              }
+            },
+            {
+              "name": {
+                "value": "ficha"
+              }
+            },
+            {
+              "name": {
+                "value": "navio"
+              }
+            },
+            {
+              "name": {
+                "value": "opaco"
+              }
+            },
+            {
+              "name": {
+                "value": "livre"
+              }
+            },
+            {
+              "name": {
+                "value": "áurea"
+              }
+            },
+            {
+              "name": {
+                "value": "astro"
+              }
+            },
+            {
+              "name": {
+                "value": "supra"
+              }
+            },
+            {
+              "name": {
+                "value": "fraco"
+              }
+            },
+            {
+              "name": {
+                "value": "ético"
+              }
+            },
+            {
+              "name": {
+                "value": "afora"
+              }
+            },
+            {
+              "name": {
+                "value": "verba"
+              }
+            },
+            {
+              "name": {
+                "value": "faixa"
+              }
+            },
+            {
+              "name": {
+                "value": "elite"
+              }
+            },
+            {
+              "name": {
+                "value": "cioso"
+              }
+            },
+            {
+              "name": {
+                "value": "glosa"
+              }
+            },
+            {
+              "name": {
+                "value": "parca"
+              }
+            },
+            {
+              "name": {
+                "value": "conta"
+              }
+            },
+            {
+              "name": {
+                "value": "autor"
+              }
+            },
+            {
+              "name": {
+                "value": "lidar"
+              }
+            },
+            {
+              "name": {
+                "value": "mente"
+              }
+            },
+            {
+              "name": {
+                "value": "firme"
+              }
+            },
+            {
+              "name": {
+                "value": "grata"
+              }
+            },
+            {
+              "name": {
+                "value": "tinha"
+              }
+            },
+            {
+              "name": {
+                "value": "verbo"
+              }
+            },
+            {
+              "name": {
+                "value": "calda"
+              }
+            },
+            {
+              "name": {
+                "value": "bater"
+              }
+            },
+            {
+              "name": {
+                "value": "privê"
+              }
+            },
+            {
+              "name": {
+                "value": "fatal"
+              }
+            },
+            {
+              "name": {
+                "value": "fatos"
+              }
+            },
+            {
+              "name": {
+                "value": "cousa"
+              }
+            },
+            {
+              "name": {
+                "value": "oxalá"
+              }
+            },
+            {
+              "name": {
+                "value": "reses"
+              }
+            },
+            {
+              "name": {
+                "value": "magia"
+              }
+            },
+            {
+              "name": {
+                "value": "junco"
+              }
+            },
+            {
+              "name": {
+                "value": "jirau"
+              }
+            },
+            {
+              "name": {
+                "value": "molho"
+              }
+            },
+            {
+              "name": {
+                "value": "irmão"
+              }
+            },
+            {
+              "name": {
+                "value": "turvo"
+              }
+            },
+            {
+              "name": {
+                "value": "macio"
+              }
+            },
+            {
+              "name": {
+                "value": "douto"
+              }
+            },
+            {
+              "name": {
+                "value": "deixa"
+              }
+            },
+            {
+              "name": {
+                "value": "torso"
+              }
+            },
+            {
+              "name": {
+                "value": "pagão"
+              }
+            },
+            {
+              "name": {
+                "value": "salve"
+              }
+            },
+            {
+              "name": {
+                "value": "abriu"
+              }
+            },
+            {
+              "name": {
+                "value": "supor"
+              }
+            },
+            {
+              "name": {
+                "value": "pique"
+              }
+            },
+            {
+              "name": {
+                "value": "ígneo"
+              }
+            },
+            {
+              "name": {
+                "value": "atual"
+              }
+            },
+            {
+              "name": {
+                "value": "asilo"
+              }
+            },
+            {
+              "name": {
+                "value": "light"
+              }
+            },
+            {
+              "name": {
+                "value": "rouca"
+              }
+            },
+            {
+              "name": {
+                "value": "festa"
+              }
+            },
+            {
+              "name": {
+                "value": "órfão"
+              }
+            },
+            {
+              "name": {
+                "value": "posto"
+              }
+            },
+            {
+              "name": {
+                "value": "caber"
+              }
+            },
+            {
+              "name": {
+                "value": "extra"
+              }
+            },
+            {
+              "name": {
+                "value": "curso"
+              }
+            },
+            {
+              "name": {
+                "value": "besta"
+              }
+            },
+            {
+              "name": {
+                "value": "locus"
+              }
+            },
+            {
+              "name": {
+                "value": "ruína"
+              }
+            },
+            {
+              "name": {
+                "value": "sexta"
+              }
+            },
+            {
+              "name": {
+                "value": "judeu"
+              }
+            },
+            {
+              "name": {
+                "value": "manhã"
+              }
+            },
+            {
+              "name": {
+                "value": "paira"
+              }
+            },
+            {
+              "name": {
+                "value": "zelar"
+              }
+            },
+            {
+              "name": {
+                "value": "vezes"
+              }
+            },
+            {
+              "name": {
+                "value": "ereto"
+              }
+            },
+            {
+              "name": {
+                "value": "desta"
+              }
+            },
+            {
+              "name": {
+                "value": "finda"
+              }
+            },
+            {
+              "name": {
+                "value": "sarça"
+              }
+            },
+            {
+              "name": {
+                "value": "vídeo"
+              }
+            },
+            {
+              "name": {
+                "value": "rádio"
+              }
+            },
+            {
+              "name": {
+                "value": "bioma"
+              }
+            },
+            {
+              "name": {
+                "value": "combo"
+              }
+            },
+            {
+              "name": {
+                "value": "feudo"
+              }
+            },
+            {
+              "name": {
+                "value": "agudo"
+              }
+            },
+            {
+              "name": {
+                "value": "tetra"
+              }
+            },
+            {
+              "name": {
+                "value": "facto"
+              }
+            },
+            {
+              "name": {
+                "value": "culpa"
+              }
+            },
+            {
+              "name": {
+                "value": "vinha"
+              }
+            },
+            {
+              "name": {
+                "value": "porta"
+              }
+            },
+            {
+              "name": {
+                "value": "menos"
+              }
+            },
+            {
+              "name": {
+                "value": "urgia"
+              }
+            },
+            {
+              "name": {
+                "value": "vosso"
+              }
+            },
+            {
+              "name": {
+                "value": "longe"
+              }
+            },
+            {
+              "name": {
+                "value": "cútis"
+              }
+            },
+            {
+              "name": {
+                "value": "surja"
+              }
+            },
+            {
+              "name": {
+                "value": "advir"
+              }
+            },
+            {
+              "name": {
+                "value": "meigo"
+              }
+            },
+            {
+              "name": {
+                "value": "traço"
+              }
+            },
+            {
+              "name": {
+                "value": "bônus"
+              }
+            },
+            {
+              "name": {
+                "value": "autos"
+              }
+            },
+            {
+              "name": {
+                "value": "tento"
+              }
+            },
+            {
+              "name": {
+                "value": "super"
+              }
+            },
+            {
+              "name": {
+                "value": "sítio"
+              }
+            },
+            {
+              "name": {
+                "value": "cânon"
+              }
+            },
+            {
+              "name": {
+                "value": "cocho"
+              }
+            },
+            {
+              "name": {
+                "value": "drops"
+              }
+            },
+            {
+              "name": {
+                "value": "facho"
+              }
+            },
+            {
+              "name": {
+                "value": "rumor"
+              }
+            },
+            {
+              "name": {
+                "value": "museu"
+              }
+            },
+            {
+              "name": {
+                "value": "pilar"
+              }
+            },
+            {
+              "name": {
+                "value": "suave"
+              }
+            },
+            {
+              "name": {
+                "value": "clean"
+              }
+            },
+            {
+              "name": {
+                "value": "lasso"
+              }
+            },
+            {
+              "name": {
+                "value": "geral"
+              }
+            },
+            {
+              "name": {
+                "value": "amena"
+              }
+            },
+            {
+              "name": {
+                "value": "acolá"
+              }
+            },
+            {
+              "name": {
+                "value": "optar"
+              }
+            },
+            {
+              "name": {
+                "value": "medir"
+              }
+            },
+            {
+              "name": {
+                "value": "penta"
+              }
+            },
+            {
+              "name": {
+                "value": "turma"
+              }
+            },
+            {
+              "name": {
+                "value": "boato"
+              }
+            },
+            {
+              "name": {
+                "value": "pífia"
+              }
+            },
+            {
+              "name": {
+                "value": "ações"
+              }
+            },
+            {
+              "name": {
+                "value": "chama"
+              }
+            },
+            {
+              "name": {
+                "value": "mosto"
+              }
+            },
+            {
+              "name": {
+                "value": "rubro"
+              }
+            },
+            {
+              "name": {
+                "value": "crime"
+              }
+            },
+            {
+              "name": {
+                "value": "letal"
+              }
+            },
+            {
+              "name": {
+                "value": "louça"
+              }
+            },
+            {
+              "name": {
+                "value": "pacto"
+              }
+            },
+            {
+              "name": {
+                "value": "pódio"
+              }
+            },
+            {
+              "name": {
+                "value": "ponha"
+              }
+            },
+            {
+              "name": {
+                "value": "lápis"
+              }
+            },
+            {
+              "name": {
+                "value": "cover"
+              }
+            },
+            {
+              "name": {
+                "value": "local"
+              }
+            },
+            {
+              "name": {
+                "value": "folga"
+              }
+            },
+            {
+              "name": {
+                "value": "nosso"
+              }
+            },
+            {
+              "name": {
+                "value": "cacho"
+              }
+            },
+            {
+              "name": {
+                "value": "hobby"
+              }
+            },
+            {
+              "name": {
+                "value": "hoste"
+              }
+            },
+            {
+              "name": {
+                "value": "aroma"
+              }
+            },
+            {
+              "name": {
+                "value": "vigia"
+              }
+            },
+            {
+              "name": {
+                "value": "vetar"
+              }
+            },
+            {
+              "name": {
+                "value": "refém"
+              }
+            },
+            {
+              "name": {
+                "value": "finjo"
+              }
+            },
+            {
+              "name": {
+                "value": "drama"
+              }
+            },
+            {
+              "name": {
+                "value": "fazia"
+              }
+            },
+            {
+              "name": {
+                "value": "pasmo"
+              }
+            },
+            {
+              "name": {
+                "value": "açude"
+              }
+            },
+            {
+              "name": {
+                "value": "brabo"
+              }
+            },
+            {
+              "name": {
+                "value": "feroz"
+              }
+            },
+            {
+              "name": {
+                "value": "axila"
+              }
+            },
+            {
+              "name": {
+                "value": "rival"
+              }
+            },
+            {
+              "name": {
+                "value": "troça"
+              }
+            },
+            {
+              "name": {
+                "value": "móvel"
+              }
+            },
+            {
+              "name": {
+                "value": "mesma"
+              }
+            },
+            {
+              "name": {
+                "value": "monte"
+              }
+            },
+            {
+              "name": {
+                "value": "poema"
+              }
+            },
+            {
+              "name": {
+                "value": "golpe"
+              }
+            },
+            {
+              "name": {
+                "value": "ecoar"
+              }
+            },
+            {
+              "name": {
+                "value": "lesse"
+              }
+            },
+            {
+              "name": {
+                "value": "metiê"
+              }
+            },
+            {
+              "name": {
+                "value": "riste"
+              }
+            },
+            {
+              "name": {
+                "value": "ávida"
+              }
+            },
+            {
+              "name": {
+                "value": "plebe"
+              }
+            },
+            {
+              "name": {
+                "value": "fórum"
+              }
+            },
+            {
+              "name": {
+                "value": "súcia"
+              }
+            },
+            {
+              "name": {
+                "value": "daqui"
+              }
+            },
+            {
+              "name": {
+                "value": "lição"
+              }
+            },
+            {
+              "name": {
+                "value": "páreo"
+              }
+            },
+            {
+              "name": {
+                "value": "coral"
+              }
+            },
+            {
+              "name": {
+                "value": "teste"
+              }
+            },
+            {
+              "name": {
+                "value": "forem"
+              }
+            },
+            {
+              "name": {
+                "value": "monge"
+              }
+            },
+            {
+              "name": {
+                "value": "aluno"
+              }
+            },
+            {
+              "name": {
+                "value": "clima"
+              }
+            },
+            {
+              "name": {
+                "value": "viram"
+              }
+            },
+            {
+              "name": {
+                "value": "carta"
+              }
+            },
+            {
+              "name": {
+                "value": "ébano"
+              }
+            },
+            {
+              "name": {
+                "value": "escol"
+              }
+            },
+            {
+              "name": {
+                "value": "macro"
+              }
+            },
+            {
+              "name": {
+                "value": "poeta"
+              }
+            },
+            {
+              "name": {
+                "value": "venha"
+              }
+            },
+            {
+              "name": {
+                "value": "falha"
+              }
+            },
+            {
+              "name": {
+                "value": "légua"
+              }
+            },
+            {
+              "name": {
+                "value": "chato"
+              }
+            },
+            {
+              "name": {
+                "value": "sarau"
+              }
+            },
+            {
+              "name": {
+                "value": "farta"
+              }
+            },
+            {
+              "name": {
+                "value": "briga"
+              }
+            },
+            {
+              "name": {
+                "value": "cargo"
+              }
+            },
+            {
+              "name": {
+                "value": "cetro"
+              }
+            },
+            {
+              "name": {
+                "value": "átimo"
+              }
+            },
+            {
+              "name": {
+                "value": "ateia"
+              }
+            },
+            {
+              "name": {
+                "value": "passa"
+              }
+            },
+            {
+              "name": {
+                "value": "fruto"
+              }
+            },
+            {
+              "name": {
+                "value": "tacha"
+              }
+            },
+            {
+              "name": {
+                "value": "perco"
+              }
+            },
+            {
+              "name": {
+                "value": "conto"
+              }
+            },
+            {
+              "name": {
+                "value": "plaga"
+              }
+            },
+            {
+              "name": {
+                "value": "calmo"
+              }
+            },
+            {
+              "name": {
+                "value": "idoso"
+              }
+            },
+            {
+              "name": {
+                "value": "plumo"
+              }
+            },
+            {
+              "name": {
+                "value": "busca"
+              }
+            },
+            {
+              "name": {
+                "value": "piada"
+              }
+            },
+            {
+              "name": {
+                "value": "virar"
+              }
+            },
+            {
+              "name": {
+                "value": "vento"
+              }
+            },
+            {
+              "name": {
+                "value": "roupa"
+              }
+            },
+            {
+              "name": {
+                "value": "tarde"
+              }
+            },
+            {
+              "name": {
+                "value": "assar"
+              }
+            },
+            {
+              "name": {
+                "value": "chefe"
+              }
+            },
+            {
+              "name": {
+                "value": "arado"
+              }
+            },
+            {
+              "name": {
+                "value": "tribo"
+              }
+            },
+            {
+              "name": {
+                "value": "aviso"
+              }
+            },
+            {
+              "name": {
+                "value": "verde"
+              }
+            },
+            {
+              "name": {
+                "value": "surto"
+              }
+            },
+            {
+              "name": {
+                "value": "recém"
+              }
+            },
+            {
+              "name": {
+                "value": "grama"
+              }
+            },
+            {
+              "name": {
+                "value": "catre"
+              }
+            },
+            {
+              "name": {
+                "value": "seixo"
+              }
+            },
+            {
+              "name": {
+                "value": "traje"
+              }
+            },
+            {
+              "name": {
+                "value": "ímpia"
+              }
+            },
+            {
+              "name": {
+                "value": "civil"
+              }
+            },
+            {
+              "name": {
+                "value": "ornar"
+              }
+            },
+            {
+              "name": {
+                "value": "deste"
+              }
+            },
+            {
+              "name": {
+                "value": "bruta"
+              }
+            },
+            {
+              "name": {
+                "value": "deram"
+              }
+            },
+            {
+              "name": {
+                "value": "saldo"
+              }
+            },
+            {
+              "name": {
+                "value": "arfar"
+              }
+            },
+            {
+              "name": {
+                "value": "fosso"
+              }
+            },
+            {
+              "name": {
+                "value": "vedar"
+              }
+            },
+            {
+              "name": {
+                "value": "trato"
+              }
+            },
+            {
+              "name": {
+                "value": "depor"
+              }
+            },
+            {
+              "name": {
+                "value": "troca"
+              }
+            },
+            {
+              "name": {
+                "value": "beijo"
+              }
+            },
+            {
+              "name": {
+                "value": "nuvem"
+              }
+            },
+            {
+              "name": {
+                "value": "tição"
+              }
+            },
+            {
+              "name": {
+                "value": "corso"
+              }
+            },
+            {
+              "name": {
+                "value": "irado"
+              }
+            },
+            {
+              "name": {
+                "value": "porte"
+              }
+            },
+            {
+              "name": {
+                "value": "pasma"
+              }
+            },
+            {
+              "name": {
+                "value": "grota"
+              }
+            },
+            {
+              "name": {
+                "value": "canso"
+              }
+            },
+            {
+              "name": {
+                "value": "pedra"
+              }
+            },
+            {
+              "name": {
+                "value": "âmbar"
+              }
+            },
+            {
+              "name": {
+                "value": "úteis"
+              }
+            },
+            {
+              "name": {
+                "value": "silvo"
+              }
+            },
+            {
+              "name": {
+                "value": "cifra"
+              }
+            },
+            {
+              "name": {
+                "value": "bazar"
+              }
+            },
+            {
+              "name": {
+                "value": "gabar"
+              }
+            },
+            {
+              "name": {
+                "value": "régio"
+              }
+            },
+            {
+              "name": {
+                "value": "júlia"
+              }
+            },
+            {
+              "name": {
+                "value": "segar"
+              }
+            },
+            {
+              "name": {
+                "value": "gíria"
+              }
+            },
+            {
+              "name": {
+                "value": "vazão"
+              }
+            },
+            {
+              "name": {
+                "value": "casar"
+              }
+            },
+            {
+              "name": {
+                "value": "amado"
+              }
+            },
+            {
+              "name": {
+                "value": "pavor"
+              }
+            },
+            {
+              "name": {
+                "value": "tutor"
+              }
+            },
+            {
+              "name": {
+                "value": "laudo"
+              }
+            },
+            {
+              "name": {
+                "value": "sósia"
+              }
+            },
+            {
+              "name": {
+                "value": "bruto"
+              }
+            },
+            {
+              "name": {
+                "value": "tiver"
+              }
+            },
+            {
+              "name": {
+                "value": "bença"
+              }
+            },
+            {
+              "name": {
+                "value": "troco"
+              }
+            },
+            {
+              "name": {
+                "value": "magna"
+              }
+            },
+            {
+              "name": {
+                "value": "perto"
+              }
+            },
+            {
+              "name": {
+                "value": "rural"
+              }
+            },
+            {
+              "name": {
+                "value": "vagar"
+              }
+            },
+            {
+              "name": {
+                "value": "molde"
+              }
+            },
+            {
+              "name": {
+                "value": "lesto"
+              }
+            },
+            {
+              "name": {
+                "value": "mídia"
+              }
+            },
+            {
+              "name": {
+                "value": "tchau"
+              }
+            },
+            {
+              "name": {
+                "value": "itens"
+              }
+            },
+            {
+              "name": {
+                "value": "única"
+              }
+            },
+            {
+              "name": {
+                "value": "minar"
+              }
+            },
+            {
+              "name": {
+                "value": "nesse"
+              }
+            },
+            {
+              "name": {
+                "value": "artur"
+              }
+            },
+            {
+              "name": {
+                "value": "renda"
+              }
+            },
+            {
+              "name": {
+                "value": "odiar"
+              }
+            },
+            {
+              "name": {
+                "value": "manga"
+              }
+            },
+            {
+              "name": {
+                "value": "vadio"
+              }
+            },
+            {
+              "name": {
+                "value": "meche"
+              }
+            },
+            {
+              "name": {
+                "value": "fossa"
+              }
+            },
+            {
+              "name": {
+                "value": "sótão"
+              }
+            },
+            {
+              "name": {
+                "value": "clero"
+              }
+            },
+            {
+              "name": {
+                "value": "jejum"
+              }
+            },
+            {
+              "name": {
+                "value": "inter"
+              }
+            },
+            {
+              "name": {
+                "value": "mangá"
+              }
+            },
+            {
+              "name": {
+                "value": "berro"
+              }
+            },
+            {
+              "name": {
+                "value": "feita"
+              }
+            },
+            {
+              "name": {
+                "value": "aviar"
+              }
+            },
+            {
+              "name": {
+                "value": "paiol"
+              }
+            },
+            {
+              "name": {
+                "value": "ileso"
+              }
+            },
+            {
+              "name": {
+                "value": "negar"
+              }
+            },
+            {
+              "name": {
+                "value": "largo"
+              }
+            },
+            {
+              "name": {
+                "value": "pomar"
+              }
+            },
+            {
+              "name": {
+                "value": "cinto"
+              }
+            },
+            {
+              "name": {
+                "value": "órgão"
+              }
+            },
+            {
+              "name": {
+                "value": "cenho"
+              }
+            },
+            {
+              "name": {
+                "value": "lesão"
+              }
+            },
+            {
+              "name": {
+                "value": "pugna"
+              }
+            },
+            {
+              "name": {
+                "value": "canto"
+              }
+            },
+            {
+              "name": {
+                "value": "horto"
+              }
+            },
+            {
+              "name": {
+                "value": "visto"
+              }
+            },
+            {
+              "name": {
+                "value": "rocha"
+              }
+            },
+            {
+              "name": {
+                "value": "amiga"
+              }
+            },
+            {
+              "name": {
+                "value": "ruído"
+              }
+            },
+            {
+              "name": {
+                "value": "podar"
+              }
+            },
+            {
+              "name": {
+                "value": "pinho"
+              }
+            },
+            {
+              "name": {
+                "value": "invés"
+              }
+            },
+            {
+              "name": {
+                "value": "urdir"
+              }
+            },
+            {
+              "name": {
+                "value": "proto"
+              }
+            },
+            {
+              "name": {
+                "value": "cível"
+              }
+            },
+            {
+              "name": {
+                "value": "bolsa"
+              }
+            },
+            {
+              "name": {
+                "value": "marca"
+              }
+            },
+            {
+              "name": {
+                "value": "ufano"
+              }
+            },
+            {
+              "name": {
+                "value": "vista"
+              }
+            },
+            {
+              "name": {
+                "value": "frota"
+              }
+            },
+            {
+              "name": {
+                "value": "mocho"
+              }
+            },
+            {
+              "name": {
+                "value": "vasta"
+              }
+            },
+            {
+              "name": {
+                "value": "densa"
+              }
+            },
+            {
+              "name": {
+                "value": "dúbia"
+              }
+            },
+            {
+              "name": {
+                "value": "bulir"
+              }
+            },
+            {
+              "name": {
+                "value": "penso"
+              }
+            },
+            {
+              "name": {
+                "value": "piche"
+              }
+            },
+            {
+              "name": {
+                "value": "úmido"
+              }
+            },
+            {
+              "name": {
+                "value": "peita"
+              }
+            },
+            {
+              "name": {
+                "value": "jogar"
+              }
+            },
+            {
+              "name": {
+                "value": "culta"
+              }
+            },
+            {
+              "name": {
+                "value": "morfo"
+              }
+            },
+            {
+              "name": {
+                "value": "xucro"
+              }
+            },
+            {
+              "name": {
+                "value": "esgar"
+              }
+            },
+            {
+              "name": {
+                "value": "resto"
+              }
+            },
+            {
+              "name": {
+                "value": "mamãe"
+              }
+            },
+            {
+              "name": {
+                "value": "cheia"
+              }
+            },
+            {
+              "name": {
+                "value": "close"
+              }
+            },
+            {
+              "name": {
+                "value": "linha"
+              }
+            },
+            {
+              "name": {
+                "value": "fazes"
+              }
+            },
+            {
+              "name": {
+                "value": "apear"
+              }
+            },
+            {
+              "name": {
+                "value": "úbere"
+              }
+            },
+            {
+              "name": {
+                "value": "chula"
+              }
+            },
+            {
+              "name": {
+                "value": "demão"
+              }
+            },
+            {
+              "name": {
+                "value": "misto"
+              }
+            },
+            {
+              "name": {
+                "value": "narco"
+              }
+            },
+            {
+              "name": {
+                "value": "findo"
+              }
+            },
+            {
+              "name": {
+                "value": "monta"
+              }
+            },
+            {
+              "name": {
+                "value": "natal"
+              }
+            },
+            {
+              "name": {
+                "value": "manto"
+              }
+            },
+            {
+              "name": {
+                "value": "campa"
+              }
+            },
+            {
+              "name": {
+                "value": "stand"
+              }
+            },
+            {
+              "name": {
+                "value": "amada"
+              }
+            },
+            {
+              "name": {
+                "value": "barão"
+              }
+            },
+            {
+              "name": {
+                "value": "fundo"
+              }
+            },
+            {
+              "name": {
+                "value": "ágape"
+              }
+            },
+            {
+              "name": {
+                "value": "chaga"
+              }
+            },
+            {
+              "name": {
+                "value": "símio"
+              }
+            },
+            {
+              "name": {
+                "value": "mover"
+              }
+            },
+            {
+              "name": {
+                "value": "retro"
+              }
+            },
+            {
+              "name": {
+                "value": "jazer"
+              }
+            },
+            {
+              "name": {
+                "value": "venho"
+              }
+            },
+            {
+              "name": {
+                "value": "álbum"
+              }
+            },
+            {
+              "name": {
+                "value": "tenha"
+              }
+            },
+            {
+              "name": {
+                "value": "nessa"
+              }
+            },
+            {
+              "name": {
+                "value": "preço"
+              }
+            },
+            {
+              "name": {
+                "value": "ardis"
+              }
+            },
+            {
+              "name": {
+                "value": "folia"
+              }
+            },
+            {
+              "name": {
+                "value": "punha"
+              }
+            },
+            {
+              "name": {
+                "value": "sigla"
+              }
+            },
+            {
+              "name": {
+                "value": "cerca"
+              }
+            },
+            {
+              "name": {
+                "value": "seiva"
+              }
+            },
+            {
+              "name": {
+                "value": "sabor"
+              }
+            },
+            {
+              "name": {
+                "value": "calça"
+              }
+            },
+            {
+              "name": {
+                "value": "álamo"
+              }
+            },
+            {
+              "name": {
+                "value": "cosmo"
+              }
+            },
+            {
+              "name": {
+                "value": "firma"
+              }
+            },
+            {
+              "name": {
+                "value": "matar"
+              }
+            },
+            {
+              "name": {
+                "value": "rente"
+              }
+            },
+            {
+              "name": {
+                "value": "banto"
+              }
+            },
+            {
+              "name": {
+                "value": "louro"
+              }
+            },
+            {
+              "name": {
+                "value": "pólis"
+              }
+            },
+            {
+              "name": {
+                "value": "ferpa"
+              }
+            },
+            {
+              "name": {
+                "value": "salva"
+              }
+            },
+            {
+              "name": {
+                "value": "tumba"
+              }
+            },
+            {
+              "name": {
+                "value": "ceita"
+              }
+            },
+            {
+              "name": {
+                "value": "míope"
+              }
+            },
+            {
+              "name": {
+                "value": "coevo"
+              }
+            },
+            {
+              "name": {
+                "value": "barro"
+              }
+            },
+            {
+              "name": {
+                "value": "arroz"
+              }
+            },
+            {
+              "name": {
+                "value": "torna"
+              }
+            },
+            {
+              "name": {
+                "value": "verão"
+              }
+            },
+            {
+              "name": {
+                "value": "velha"
+              }
+            },
+            {
+              "name": {
+                "value": "sinta"
+              }
+            },
+            {
+              "name": {
+                "value": "redor"
+              }
+            },
+            {
+              "name": {
+                "value": "volta"
+              }
+            },
+            {
+              "name": {
+                "value": "enjoo"
+              }
+            },
+            {
+              "name": {
+                "value": "solta"
+              }
+            },
+            {
+              "name": {
+                "value": "ousar"
+              }
+            },
+            {
+              "name": {
+                "value": "bolso"
+              }
+            },
+            {
+              "name": {
+                "value": "etapa"
+              }
+            },
+            {
+              "name": {
+                "value": "santo"
+              }
+            },
+            {
+              "name": {
+                "value": "áudio"
+              }
+            },
+            {
+              "name": {
+                "value": "trago"
+              }
+            },
+            {
+              "name": {
+                "value": "lousa"
+              }
+            },
+            {
+              "name": {
+                "value": "zumbi"
+              }
+            },
+            {
+              "name": {
+                "value": "fugiu"
+              }
+            },
+            {
+              "name": {
+                "value": "corar"
+              }
+            },
+            {
+              "name": {
+                "value": "letra"
+              }
+            },
+            {
+              "name": {
+                "value": "nesta"
+              }
+            },
+            {
+              "name": {
+                "value": "obtém"
+              }
+            },
+            {
+              "name": {
+                "value": "lutar"
+              }
+            },
+            {
+              "name": {
+                "value": "final"
+              }
+            },
+            {
+              "name": {
+                "value": "queda"
+              }
+            },
+            {
+              "name": {
+                "value": "cacto"
+              }
+            },
+            {
+              "name": {
+                "value": "mimar"
+              }
+            },
+            {
+              "name": {
+                "value": "baixa"
+              }
+            },
+            {
+              "name": {
+                "value": "troço"
+              }
+            },
+            {
+              "name": {
+                "value": "farol"
+              }
+            },
+            {
+              "name": {
+                "value": "reler"
+              }
+            },
+            {
+              "name": {
+                "value": "fátuo"
+              }
+            },
+            {
+              "name": {
+                "value": "penca"
+              }
+            },
+            {
+              "name": {
+                "value": "veloz"
+              }
+            },
+            {
+              "name": {
+                "value": "vário"
+              }
+            },
+            {
+              "name": {
+                "value": "quite"
+              }
+            },
+            {
+              "name": {
+                "value": "nácar"
+              }
+            },
+            {
+              "name": {
+                "value": "longo"
+              }
+            },
+            {
+              "name": {
+                "value": "vazia"
+              }
+            },
+            {
+              "name": {
+                "value": "neste"
+              }
+            },
+            {
+              "name": {
+                "value": "burra"
+              }
+            },
+            {
+              "name": {
+                "value": "coroa"
+              }
+            },
+            {
+              "name": {
+                "value": "folha"
+              }
+            },
+            {
+              "name": {
+                "value": "mania"
+              }
+            },
+            {
+              "name": {
+                "value": "farto"
+              }
+            },
+            {
+              "name": {
+                "value": "sugar"
+              }
+            },
+            {
+              "name": {
+                "value": "forro"
+              }
+            },
+            {
+              "name": {
+                "value": "staff"
+              }
+            },
+            {
+              "name": {
+                "value": "puído"
+              }
+            },
+            {
+              "name": {
+                "value": "refil"
+              }
+            },
+            {
+              "name": {
+                "value": "bedel"
+              }
+            },
+            {
+              "name": {
+                "value": "dança"
+              }
+            },
+            {
+              "name": {
+                "value": "justa"
+              }
+            },
+            {
+              "name": {
+                "value": "ultra"
+              }
+            },
+            {
+              "name": {
+                "value": "repor"
+              }
+            },
+            {
+              "name": {
+                "value": "viger"
+              }
+            },
+            {
+              "name": {
+                "value": "lucro"
+              }
+            },
+            {
+              "name": {
+                "value": "subir"
+              }
+            },
+            {
+              "name": {
+                "value": "logos"
+              }
+            },
+            {
+              "name": {
+                "value": "passe"
+              }
+            },
+            {
+              "name": {
+                "value": "urgir"
+              }
+            },
+            {
+              "name": {
+                "value": "custo"
+              }
+            },
+            {
+              "name": {
+                "value": "sadio"
+              }
+            },
+            {
+              "name": {
+                "value": "chave"
+              }
+            },
+            {
+              "name": {
+                "value": "hífen"
+              }
+            },
+            {
+              "name": {
+                "value": "sexto"
+              }
+            },
+            {
+              "name": {
+                "value": "gueto"
+              }
+            },
+            {
+              "name": {
+                "value": "mimos"
+              }
+            },
+            {
+              "name": {
+                "value": "valer"
+              }
+            },
+            {
+              "name": {
+                "value": "mouro"
+              }
+            },
+            {
+              "name": {
+                "value": "usual"
+              }
+            },
+            {
+              "name": {
+                "value": "sócio"
+              }
+            },
+            {
+              "name": {
+                "value": "lento"
+              }
+            },
+            {
+              "name": {
+                "value": "cardo"
+              }
+            },
+            {
+              "name": {
+                "value": "salmo"
+              }
+            },
+            {
+              "name": {
+                "value": "versa"
+              }
+            },
+            {
+              "name": {
+                "value": "calor"
+              }
+            },
+            {
+              "name": {
+                "value": "desça"
+              }
+            },
+            {
+              "name": {
+                "value": "lábil"
+              }
+            },
+            {
+              "name": {
+                "value": "calvo"
+              }
+            },
+            {
+              "name": {
+                "value": "rédea"
+              }
+            },
+            {
+              "name": {
+                "value": "anzol"
+              }
+            },
+            {
+              "name": {
+                "value": "árdua"
+              }
+            }
+          ],
+          "name": "guess"
+        }
+      ]
+    }
+  },
+  "version": "27"
+}
